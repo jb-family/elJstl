@@ -26,9 +26,35 @@
 	str = <%= str %><br>
 	
 	<h3>el문법</h3>
-	${requestScope.userVo}<br>
-	${requestScope.num}<br>
-	${requestScope.str}<br>
+	번호 = ${requestScope.userVo.no}<br>
+	이름 = ${requestScope.userVo.name}<br>
+	패스워드 = ${requestScope.userVo.password}<br>
+	이메일 = ${requestScope.userVo.email}<br>
+	성별 = ${requestScope.userVo.gender}<br>
+	<br>
+	num = ${requestScope.num}<br>
+	str = ${requestScope.str}<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h3>el문법(생략버전)</h3>
+	번호 = ${userVo.no}<br>
+	이름 = ${userVo.name}<br>
+	패스워드 = ${userVo.password}<br>
+	이메일 = ${userVo.email}<br>
+	성별 = ${userVo.gender}<br>
+	<br>
+	num = ${num}<br>
+	str = ${str}<br>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
 	
 </body>
 </html>

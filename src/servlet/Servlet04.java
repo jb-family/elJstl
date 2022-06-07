@@ -21,6 +21,7 @@ public class Servlet04 extends HttpServlet {
 		request.setAttribute("userVo", userVo);
 		
 		
+		
 		request.setAttribute("num", 1);
 		request.setAttribute("str", "안녕하세요");
 		
